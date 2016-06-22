@@ -35,3 +35,12 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# webstorm
+.idea/
+.idea

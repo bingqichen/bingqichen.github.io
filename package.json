@@ -1,0 +1,24 @@
+{
+  "name": "bingqichen.github.io",
+  "version": "0.1.0",
+  "description": "GitHub个人站点",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "sh sync.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bingqichen/bingqichen.github.io.git"
+  },
+  "keywords": [
+    "personal sites",
+    "demo"
+  ],
+  "author": "BingqiChen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bingqichen/bingqichen.github.io/issues"
+  },
+  "homepage": "https://github.com/bingqichen/bingqichen.github.io#readme"
+}

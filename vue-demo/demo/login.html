@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>测试布局</title>
+    <link rel="stylesheet" href="../dist/css/web-style.css">
+    <style>
+    .wrap{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .login-box{
+      width: 400px;
+      /*box-shadow:  0 0 4px rgba(0, 0, 0, 0.17);*/
+      box-sizing: border-box;
+      background: rgba(255,255,255,0.8);
+      /*border: 1px solid #E9E9E9;*/
+      border-radius: 6px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 10%
+    }
+      h1{
+        text-align: center;
+        margin: 40px 24px;
+        color: #61b98e
+      }
+      .form{
+        width: 400px;
+      }
+      .small{
+        text-align: center;
+        margin-bottom: 24px;
+      }
+      .label{
+        height: 36px;
+        line-height: 36px
+      }
+      .input{
+        height: 36px
+      }
+      @media only screen and (max-width: 640px) {
+        .login-box{
+          box-shadow: none;
+          border: none;
+          padding: 0 10px
+        }
+
+      }
+
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="login-box form">
+            <h1>爱到家TMS系统</h1>
+
+            <div class="small">H5 创建发布平台</div>
+            <div class="row">
+                 <label class="label col-2">账号:</label>
+                 <div class="col-8"><input type="text" placeholder="数字" value="cycok" class="input"></div>
+            </div>
+
+
+            <div class="row">
+                 <label class="label col-2">密码:</label>
+                 <div class="col-8"><input type="password" placeholder="6位以上" value="1234" class="input"></div>
+            </div>
+
+            <div class="row last">
+             <div class="col-8 col-offset-2">
+               <button class="btn btn-block btn-primary btn-lg"><i class="loading" style="display:none"></i> 登录</button>
+               
+             </div>
+
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>

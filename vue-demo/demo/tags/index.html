@@ -22,7 +22,7 @@
 </head>
 <body>
   <p class="readme">
-    用户输入内容后可以按 <code>enter</code> 键增加新标签，可以按 <code>delete</code> 键删除最后一个标签，也可以通过每个标签右边的叉叉删除指定标签。
+    用户输入内容后可以按 <code>enter</code> 键增加新标签，可以按 <code>delete</code> 键删除最后一个标签，也可以通过每个标签右边的叉叉删除指定标签，Tags input框内任意位置支持粘贴。
   </p>
   <div id="app">
 
@@ -38,7 +38,7 @@
 	      source: ['英雄联盟', '骚猪', '对对对对对我是娇妹', '小轩在不在']
 	    },
 	    components: {
-	      'v-tags': tags
+	      'v-tags': components.tags
 	    }
 	  })
 	</script>
